@@ -1,0 +1,120 @@
+/*
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
+*/
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding-top: 1.1rem;
+    padding-left: 1.2rem;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #eee;
+      }
+
+      &.dropdown {
+        position: relative;
+      }
+
+      &.dropdown-toggle::after {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        content: "";
+        border-top: 0.3em solid;
+        border-right: 0.3em solid transparent;
+        border-bottom: 0;
+        border-left: 0.3em solid transparent;
+      }
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 10rem;
+      padding: 0.5rem 0;
+      margin: 0.125rem 0 0;
+      font-size: 1rem;
+      color: #212529;
+      text-align: left;
+      list-style: none;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 0.25rem;
+
+      &.show {
+        display: block;
+      }
+    }
+
+    .dropdown-item {
+      display: block;
+      width: 100%;
+      padding: 3px 1.5rem;
+      clear: both;
+      font-weight: 400;
+      color: #212529;
+      text-align: inherit;
+      white-space: nowrap;
+      background-color: transparent;
+      border: 0;
+
+      &:hover,
+      &:focus {
+        color: #16181b;
+        text-decoration: none;
+        background-color: #f8f9fa;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: rgb(228, 228, 228);
+  padding: 1.35rem 2.7rem;
+  font-family: "Open Sans Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.warningAlert {
+  background-color: yellow;
+  border: 1px solid orange;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+  outline: 2px solid orange;
+  padding: 10px;
+}

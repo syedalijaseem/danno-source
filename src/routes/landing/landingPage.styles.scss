@@ -1,0 +1,70 @@
+.landing-page {
+  background: linear-gradient(to bottom right, #1f4037, #99f2c8);
+  width: 100vw;
+  height: 100vh;
+}
+
+.landing-page-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem;
+  margin-top: 15rem;
+  background: linear-gradient(to bottom right, #71b280, #ffffff);
+  border-radius: 2rem;
+  padding: 10rem;
+}
+
+.landing-page-container .text {
+  width: 50%;
+}
+
+.landing-page-container .image {
+  width: 50%;
+  position: relative;
+}
+
+.landing-page-container .image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -60%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.landing-page-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.landing-page-container p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.landing-page-container button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.landing-page-container button:hover {
+  background-color: #4169e1;
+}

@@ -1,0 +1,4 @@
+.grid-item:hover {
+  transform: scale(1.15);
+  background-color: rgb(241, 255, 238);
+}
