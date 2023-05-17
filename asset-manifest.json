@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/danno-source/static/css/main.0a106837.chunk.css",
+    "main.js": "/danno-source/static/js/main.3f67d4e7.chunk.js",
+    "main.js.map": "/danno-source/static/js/main.3f67d4e7.chunk.js.map",
+    "runtime-main.js": "/danno-source/static/js/runtime-main.83bbc7c3.js",
+    "runtime-main.js.map": "/danno-source/static/js/runtime-main.83bbc7c3.js.map",
+    "static/css/2.51f4da56.chunk.css": "/danno-source/static/css/2.51f4da56.chunk.css",
+    "static/js/2.f8baeba4.chunk.js": "/danno-source/static/js/2.f8baeba4.chunk.js",
+    "static/js/2.f8baeba4.chunk.js.map": "/danno-source/static/js/2.f8baeba4.chunk.js.map",
+    "index.html": "/danno-source/index.html",
+    "precache-manifest.4113fe00344c03eec688e61f0663aaf6.js": "/danno-source/precache-manifest.4113fe00344c03eec688e61f0663aaf6.js",
+    "service-worker.js": "/danno-source/service-worker.js",
+    "static/css/2.51f4da56.chunk.css.map": "/danno-source/static/css/2.51f4da56.chunk.css.map",
+    "static/css/main.0a106837.chunk.css.map": "/danno-source/static/css/main.0a106837.chunk.css.map",
+    "static/js/2.f8baeba4.chunk.js.LICENSE.txt": "/danno-source/static/js/2.f8baeba4.chunk.js.LICENSE.txt",
+    "static/js/main.3f67d4e7.chunk.js.LICENSE.txt": "/danno-source/static/js/main.3f67d4e7.chunk.js.LICENSE.txt",
+    "static/media/animatedImage.png": "/danno-source/static/media/animatedImage.c08b2138.png",
+    "static/media/bg.jpg": "/danno-source/static/media/bg.c56145a7.jpg",
+    "static/media/dannosource.9de6af50.svg": "/danno-source/static/media/dannosource.9de6af50.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83bbc7c3.js",
+    "static/css/2.51f4da56.chunk.css",
+    "static/js/2.f8baeba4.chunk.js",
+    "static/css/main.0a106837.chunk.css",
+    "static/js/main.3f67d4e7.chunk.js"
+  ]
+}
